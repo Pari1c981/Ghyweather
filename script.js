@@ -3,7 +3,7 @@ const city = 'Guwahati';
 const country = 'IN';
 
 async function fetchWeather() {
-  const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Guwahati?unitGroup=metric&key=YOUR_API_KEY&contentType=json`;
+  const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Guwahati?unitGroup=metric&key=YOUR_OPENWEATHERMAP_API_KEY&contentType=json`;
   
   try {
     const response = await fetch(url);
